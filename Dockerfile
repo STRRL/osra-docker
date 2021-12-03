@@ -56,6 +56,7 @@ CMD ["bash"]
 
 
 FROM debian:bullseye
+LABEL org.opencontainers.image.source=https://github.com/STRRL/osra-docker
 
 MAINTAINER Gert wohlgemuth <wohlgemuth@ucdavis.edu>
 MAINTAINER STRRL <im@strrl.dev>
